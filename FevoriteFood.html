@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1.Project:Fevorite food App</title>
+   <style>
+    #topbar{
+    background-color: hsla(125, 100%, 50%, 0.827);
+    padding: 25px;
+}
+.menu-item{
+    font-size: 24px;
+    padding: 8px;
+    font-weight: 600;
+}
+h2{
+    display: block;
+    font-weight: bold;
+    margin-block-start: 5px;
+    padding: 10px;
+    
+}
+.main-page{
+    background-color:rgba(142, 147, 148, 0.129);
+}
+.list-heading{
+    font-size: 20px;
+}
+.item-images{
+   text-align: center;
+
+}
+.img-heading{
+    font-weight: 20px;
+}
+.image-items{
+    width: 500px;
+}
+span:hover{
+    background-color: blueviolet;
+}
+.button-box{
+    display: flex;
+    justify-content:end;
+    font-size: 40px;
+}
+.edit{
+background-color: blue;
+text-align: center;
+color: white;
+font-size: 10px;
+font-weight: 400;
+height: 50px;
+}
+.sign{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    font-weight: 400;
+}
+.log{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    font-weight: 400;
+
+}
+button:hover{
+    background-color: blueviolet;
+}
+
+   </style>
+</head>
+
+  <body class="main-page">
+    <h1 style="text-align: center;">Food App</h1>
+    <div id="topbar">
+      <span class="menu-item"><a href="#">Index</a></span>
+      <span  class="menu-item"><a href="#">Food</a></span>
+      <span  class="menu-item"><a href="#">About</a></span>
+      <div class="button-box">
+       <button class="edit">View Editor</button>
+       <button class="sign">Signup</button>
+       <button class="log">Log in</button>
+      </div>
+    </div>
+   
+    <h2>Top 5 favourite foods</h2>
+    <ul class="list-heading">
+      <li><a href="#biryaniImg">Biryani</a></li>
+      <li><a href="#pizzaImg">Pizza</a></li>
+      <li><a href="#Lasagna-img">Lasagna</a></li>
+      <li><a href="#burgerImg">Burger</a></li>
+      <li><a href="#Caesar-Salad">Caesar Salad</a></li>
+    </ul>
+    <div class="item-images">
+       <img id="biryaniImg" src="../Edyoda/depositphotos_49471133-stock-photo-hyderabadi-biryani-a-popular-chicken.jpg" alt="biryani" class="image-items"/>
+       <p class="img-heading">Biryani</p>
+       <img id="pizzaImg" src="../Edyoda/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg" alt="pizza" class="image-items">
+       <p class="img-heading">pizza</p>
+       <img id="Lasagna-img" src="../Edyoda/lasagna.jpg" alt="Lasagna" class="image-items">
+       <p class="img-heading">Lasagna</p>
+       <img id="burgerImg" src="../Edyoda/Burger.jpg" alt="Burger" class="image-items">
+       <p class="img-heading">Burger</p>
+       <img id="Caesar-Salad" src="../Edyoda/caesar-salad-10-1200.jpg" alt="Caesar Salad" class="image-items">
+       <p class="img-heading">Caesar Salad</p>
+    </div>
+    
+  </body>
+
+</html>
